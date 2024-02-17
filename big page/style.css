@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Nav */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 250px 60px 250px;
+}
+
+.socials {
+    display: flex;
+    justify-content: end;
+    padding-top: 8px;
+}
+
+.header__social-icon {
+    margin-right: 15px;
+}
+
+
+/* Search block */
+
+.search {
+    width: 100%;
+    height: 360px;
+    background-color: #FAC960;
+    padding-top: 70px;
+}
+
+.get_invite {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.subtext {
+    font-size: 44px;
+    color: #8A6D2F;
+}
+
+input {
+    width: 570px;
+    height: 36px;
+    border: none;
+    font-size: 25px;
+    padding-left: 30px;
+    vertical-align: middle;
+
+}
+
+.get-invite-btn {
+    width: 220px;
+    height: 38px;
+    background-color: #A8863D;
+    color: #fff;
+    border: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+
+/* Unlimited block */
+
+.unlimited {
+    width: 100%;
+    height: 421px;
+    background-color: #F2F2F2;
+    padding-top: 50px
+}
+
+
+.title_text {
+    font-size: 37px;
+    color: rgba(0, 0, 0, 0.54);
+    margin-bottom: 7px;
+}
+
+.lorem {
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 60px;
+}
+
+/* Mobile access block*/
+
+
+.mobile-access {
+    width: 100%;
+    height: 621px;
+    padding-top: 50px
+}
+
+
+/* Friend block */
+
+.referral {
+    width: 100%;
+    height: 360px;
+    background-color: #FAC960;
+    padding-top: 70px;
+}
+
+.read-more-btn {
+    background-color: #fff;
+    width: 61px;
+    color: #999999;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 240px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.main-logo {
+    margin-top: 90px;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 0px 20px;
+}
+
+.social-icon {
+    width: 21px;
+    height: 17px;
+    margin-right: 20px;
+}
