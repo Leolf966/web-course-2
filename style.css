@@ -19,6 +19,8 @@ body {
 
 /* Header */
 
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -201,9 +203,20 @@ header {
 
 .arrow {
     position: relative;
-    left: 520px;
+    left: 500px;
     top: 20px;
     margin-right: 25px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-posters,
+.footer-user {
+    display: flex;
+    align-items: center;
 }
 
 .film {
@@ -218,13 +231,13 @@ header {
     font-weight: 500;
     border: none;
     position: relative;
-    bottom: 120px;
-    left: 330px;
+    top: 80px;
+    left: 28px;
     padding-right: 30px;
 }
 
 .back-btn {
-    position: relative;
-    left: 151px;
-    bottom: 95px;
+    position: absolute;
+    right: 143px;
+    top: 912px;
 }
