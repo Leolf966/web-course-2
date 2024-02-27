@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "KyivTypeTitling";
+    src: url(/fonts/KyivTypeTitling-Medium.otf)
+}
+
+* {
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    background-image: url(./imgs/back.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Inter", sans-serif;
+    margin: 20px 0px 0px 60px;
+}
+
+/* Nav */
+
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    text-decoration: none;
+    font-size: 40px;
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    bottom: 15px;
+}
+
+.navbar li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+.date-logo {
+    font-family: "KyivTypeTitling", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    left: 28px;
+    bottom: 17px;
+    color: #C8C8C8;
+}
+
+.line {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+    padding: 10px 0px 0px 10px;
+
+}
+
+    /* Main */
+
+.genres {
+    font-size: 32px;
+    font-weight: 500;
+    word-spacing: 5px;
+}
+
+.spacing {
+    font-size: 27px;
+}
+
+.title-text {
+    font-size: 64px;
+    font-weight: 800;
+    margin-top: -10px;
+    letter-spacing: 3px;
+}
+
+.details {
+    font-size: 29px;
+    font-weight: 500;
+    margin-top: -40px;
+}
+
+.subtitle {
+    font-size: 30px;
+    font-weight: 400;
+    color: #A7A6A6;
+}
+
+.description {
+    font-size: 24px;
+    color: #A7A6A6;
+}
+
+.paragraph {
+    font-size: 24px;
+    padding-left: 8px;
+    color: #A7A6A6;
+}
+
+.star-icon {
+    margin-right: 10px;
+}
+
+.btn-content {
+    margin-top: 50px;
+}
+
+.stream-btn {
+    width: 272px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: #D40D1F;
+    border: none;
+    font-size: 22px;
+    font-weight: 500;
+    padding-right: 65px;
+}
+
+.volume {
+    position: relative;
+    right: 80px;
+    top: 8px;
+}
+
+.episode-btn {
+    width: 271px;
+    height: 64px;
+    border: 3px solid;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    background: none;
+    margin-left: 10px;
+}
+
+/* Footer */
+
+.movement {
+    display: flex;
+}
+
+.pop-films {
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 50px;
+    letter-spacing: 3px;
+}
+
+.arrow {
+    position: relative;
+    left: 520px;
+    top: 20px;
+    margin-right: 25px;
+}
+
+.film {
+    margin: 10px 35px 35px 0px;
+}
+
+.age-category-btn {
+    width: 174px;
+    height: 66px;
+    background-color: rgba(255, 255, 255, 0.49);
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    position: relative;
+    bottom: 120px;
+    left: 330px;
+    padding-right: 30px;
+}
+
+.back-btn {
+    position: relative;
+    left: 151px;
+    bottom: 95px;
+}
