@@ -204,7 +204,7 @@ header {
 .arrow {
     position: relative;
     left: 500px;
-    top: 20px;
+    top: 25px;
     margin-right: 25px;
 }
 
@@ -232,12 +232,12 @@ header {
     border: none;
     position: relative;
     top: 80px;
-    left: 29px;
+    left: 67px;
     padding-right: 30px;
 }
 
 .back-btn {
-    position: absolute;
-    right: 143px;
-    top: 912px;
+    position:relative;
+    right: 112px;
+    top: 105px;
 }
