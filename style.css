@@ -190,8 +190,36 @@ header {
 
 /* Footer */
 
-.movement {
+.recomendation {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 890px;
+}
+
+.recomendation-btn {
+    display: flex;
+    column-gap: 27px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.recomendation-btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    background-color: transparent;
+    color: #fff;
+    font-size: 17px;
+}
+
+.recomendation-btn button:hover {
+    border: 1.42px solid rgb(167, 166, 166);
+    color: rgba(167, 166, 166);
 }
 
 .pop-films {
@@ -199,13 +227,6 @@ header {
     font-weight: 800;
     margin-top: 50px;
     letter-spacing: 3px;
-}
-
-.arrow {
-    position: relative;
-    left: 500px;
-    top: 25px;
-    margin-right: 25px;
 }
 
 .footer {
